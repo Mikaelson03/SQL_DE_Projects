@@ -1,8 +1,8 @@
 SELECT
-    jpf.*,
+    jpf_.*,
     cd.*
 FROM
-    job_postings_fact AS jpf
+    job_postings_fact AS jpf_
 LEFT JOIN company_dim AS cd 
     ON jpf.company_id = cd.company_id
 LIMIT 10;
