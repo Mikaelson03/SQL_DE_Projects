@@ -1,4 +1,4 @@
-/* A query to get the most in-demand skills for remote data engineering roles in Nigeria
+/* A query to get the most in-demand skills for remote data engineering roles in Nigeria.
 */
 
 SELECT 
